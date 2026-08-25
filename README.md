@@ -6,6 +6,21 @@
 
 无论哪种方式, 请阅读[教程文档](https://stagedog.github.io/青空莉/工具经验/实时编写前端界面或脚本/)来了解如何使用.
 
+## 基础语句
+前提：需要酒馆助手脚本`import 'https://testingcf.jsdelivr.net/gh/StageDog/tavern_sync/dist/script.js'`
+提取角色卡
+`node tavern_sync.mjs pull 角色卡示例`
+强制推送
+`node tavern_sync.mjs push 角色卡示例 -f`
+打包角色卡
+`node tavern_sync.mjs bundle 角色卡示例`
+
+前提: 需要酒馆助手开启监听
+自动打包
+`pnpm build`
+实时监听
+`pnpm watch`
+
 ### 仅本地使用
 
 你可以点击网页右上角的绿色 `Code` 按钮-`Download ZIP` 下载本模板的压缩包来只在本地使用
